@@ -1,17 +1,8 @@
-html {
-    height: -webkit-fill-available;
-}
-
 body {
-    display: flex;
-    flex direction: column;
-    max width: 1440px;
     overflow: scroll;
     overflow-x: hidden;
     height: 100vh;
-    height: -webkit-fill-available;
-
-    margin: 0 auto;
+    margin: 0;
     font-family: system-ui;  
 }
 
