@@ -13,39 +13,8 @@ body {
 }
 
 
-
-.wrapper-main {
-    width: 0px;
-    height: auto;
-    margin: auto;
-}
-
-.scroll-bg {
-
-    width: 100px;
-    margin: 100% auto;
-    padding: 0px;
-
-}
-
-.scroll-div {
-    font-size: 20px;
-    width: 200px;
-    height: 300px;
-    overflow: hidden;
-    overflow-y: scroll;
-    border-radius: 1px;
-}
-
-
-.scroll-object {
-color: white;
-padding: 0px;
-}
-
-
-
 .hero {
+  
     margin: 0;
     padding: 0;
     padding-bottom: 1em;
@@ -65,9 +34,7 @@ padding: 0px;
 }
 
 
-
 .container {
-   
     max-width: 96px;
     margin-left: auto;
     margin-right: auto;
@@ -75,6 +42,39 @@ padding: 0px;
     padding-right: 1rem;
 }
 
+
+.wrapper-main {
+    width: 0px;
+    height: auto;
+    margin: auto;
+}
+
+.scroll-bg {
+    display: flex;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: auto;
+    padding: 10px;
+}
+
+
+
+.scroll-div {
+    font-size: 20px;
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
+    overflow-y: scroll;
+    border-radius: 1px;
+}
+
+
+.scroll-object {
+color: white;
+padding: 0px;
+}
 
 
 .footer-main {
