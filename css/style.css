@@ -1,6 +1,4 @@
 body {
-    overflow: scroll;
-    overflow-x: hidden;
     height: 150vh;
     margin: 0;
     font-family: system-ui;
