@@ -32,7 +32,7 @@ body {
     z-index: 11;
     overflow-x: hidden;
     overflow-y: auto;
-
+    height: calc(100% + 1px)
     –webkit-overflow-scrolling: touch;
 }
 
@@ -61,7 +61,7 @@ body {
     z-index: 11;
     overflow-x: hidden;
     overflow-y: auto;
-
+    height: calc(100% + 1px)
     –webkit-overflow-scrolling: touch;
 }
 
@@ -87,7 +87,7 @@ body {
     z-index: 11;
     overflow-x: hidden;
     overflow-y: auto;
-
+    height: calc(100% + 1px)
     –webkit-overflow-scrolling: touch;
 }
 
