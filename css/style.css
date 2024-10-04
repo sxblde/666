@@ -7,34 +7,6 @@ body {
 }
 
 
-.text {
-    padding-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-
-.phone-text {
-    padding-top: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    visibility: collapse;
-}
-
-
-
-@media only screen and (max-width: 414px){
-.text {
-    visibility: collapse;
-}
-
-.phone-text{
-    visibility: visible;
-}
-}
-
-
 
 ::-webkit-scrollbar {
     width: 0px;
@@ -55,8 +27,8 @@ body {
     color: rgb(255, 255, 255);
 
 
-    padding-top: 1100px;
-    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 1500px;
 }
 
 
@@ -117,6 +89,11 @@ body {
     margin: auto;
 }
 
+
+
+
+
+
 .scroll-bg {
     display: flex;
     position: absolute;
@@ -130,8 +107,8 @@ body {
 
 
 .scroll-div {
-    font-size: 20px;
-    width: 200px;
+    font-size: 40px;
+    width: 500px;
     height: 300px;
     overflow: hidden;
     overflow-y: scroll;
@@ -145,9 +122,17 @@ padding: 0px;
 }
 
 
+
+
+
+
+
+
+
+
 .footer-main {
     width: 100%;
-    padding: 1px 0px 10px;
+    padding: 0px 0px 0px;
     background-color:#ff0000;
 }
 
@@ -159,7 +144,7 @@ padding: 0px;
 }
 
 .footer-logo {
-    flex-basis: 20%;
+    flex-basis: 1%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -192,5 +177,5 @@ padding: 0px;
 }
 
 .footer-site-map {
-    flex-basis: 10%;
+    flex-basis: 1%;
 }
