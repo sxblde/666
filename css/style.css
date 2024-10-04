@@ -1,8 +1,37 @@
 body {
-
+    overflow: scroll;
+    overflow-x: hidden;
     height: 150vh;
     margin: 0;
     font-family: system-ui;
+}
+
+
+.text {
+    padding-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.phone-text {
+    padding-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    visibility: collapse;
+}
+
+
+
+@media only screen and (max-width: 414px){
+.text {
+    visibility: collapse;
+}
+
+.phone-text{
+    visibility: visible;
+}
 }
 
 
@@ -27,9 +56,7 @@ body {
 
 
     padding-top: 10px;
-    padding-bottom: 3000px;
-
-    –webkit-overflow-scrolling: touch;
+    padding-bottom: 1500px;
 }
 
 
@@ -52,8 +79,6 @@ body {
 
     padding-top: 500px;
     padding-bottom: 100px;
-
-    –webkit-overflow-scrolling: touch;
 }
 
 .hero-bottom{
@@ -71,10 +96,8 @@ body {
     color: rgb(255, 255, 255);
 
 
-    padding-top: 100px;
+    padding-top: 1100px;
     padding-bottom: 10px;
-
-    –webkit-overflow-scrolling: touch;
 }
 
 
