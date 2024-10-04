@@ -1,4 +1,5 @@
 body {
+
     height: 150vh;
     margin: 0;
     font-family: system-ui;
@@ -27,6 +28,8 @@ body {
 
     padding-top: 10px;
     padding-bottom: 1500px;
+
+    –webkit-overflow-scrolling: touch
 }
 
 
@@ -49,6 +52,8 @@ body {
 
     padding-top: 500px;
     padding-bottom: 100px;
+
+    –webkit-overflow-scrolling: touch
 }
 
 .hero-bottom{
@@ -68,6 +73,8 @@ body {
 
     padding-top: 1100px;
     padding-bottom: 10px;
+
+    –webkit-overflow-scrolling: touch
 }
 
 
