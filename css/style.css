@@ -29,6 +29,10 @@ body {
     padding-top: 10px;
     padding-bottom: 1500px;
 
+    z-index: 11;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
     –webkit-overflow-scrolling: touch;
 }
 
