@@ -31,7 +31,7 @@ body {
 
     z-index: 11;
     overflow-x: hidden;
-    overflow-y: scroll;
+    overflow-y: auto;
 
     –webkit-overflow-scrolling: touch;
 }
@@ -60,7 +60,8 @@ body {
 
     z-index: 11;
     overflow-x: hidden;
-    overflow-y: scroll;
+    overflow-y: auto;
+
     –webkit-overflow-scrolling: touch;
 }
 
@@ -85,7 +86,8 @@ body {
 
     z-index: 11;
     overflow-x: hidden;
-    overflow-y: scroll;
+    overflow-y: auto;
+
     –webkit-overflow-scrolling: touch;
 }
 
